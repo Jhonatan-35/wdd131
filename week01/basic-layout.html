@@ -1,50 +1,35 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-Us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jhonatan Yugsan| WDD 131 </title>
-    <meta name="description" content="Jhonatan Yugsan's BYU-Idaho WWD 130 home page">
-    <meta name="author" content="Jhonatan Yugsan">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhonatan Yugsan WDD 131</title>
+  <link rel="stylesheet" href="styles/layout.css">
 </head>
+<body>
+  <h1>Navigation Menu Using CSS Flex</h1>
+<p>Manually shrink the screen.</p>
+<hr>
+<h2>HTML: Semantic Approach</h2>
+<nav class="navigation modern">
+	<a href="#" title="Home">Home</a>
+	<a href="#" title="About Us">About</a>
+	<a href="#" title="Our Partners">Affiliates</a>
+	<a href="#" title="History of Our Organization">History</a>
+	<a href="#" title="Contact Us">Contact</a>
+</nav>
 
-<body> 
-    <header>
-    
-        <nav>
-            <a href="quiz.html">Home</a>
-            <a href="wwr/">Rafting Site</a>
-            <a href="wwr/site-plan-rafting.html">Rafting Site plan </a>
-            <a href="https://www.linkedin.com/in/jhonatanyugsan/">LinkedIn</a>
-            <a href="https://facebook.com ">Facebook</a>
-        </nav>
-    </header>
-    <div class="grid">
-    <main>
-        <h1>Jhonatan Yugsan|WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello my name is Jhonatan Yugsan" width="200">
-        <p>¡Hello! My name is Jhonatan Yugsan, I am from Riobamba - Ecuador, I am 23 years old. There are four of us in my family. I have a sister. I am currently a software development student at BrighamYoung University -Idaho online and I also work for a Spanish company. As part of my hobbies,
-          I really like reading, drawing, I love traveling, camping and fishing. My favorite sports are thatI really like playing soccer, basketball and listening to music. A little about me and as a software developer, the truth is incredible and. 
-           If you want to learn more about web pages. I invite you to visit my website to help you and if you want I will be there to answer your questions. </p>
-     
-  <ul class="box indent">
-    <li><a href="https://www.churchofjesuschrist.org/temples/details/quito-ecuador-temple" target="_blank">Quito Ecuador Temple</a></li>
-    <li><a href="https://www.churchofjesuschrist.org/temples/details/guayaquil-ecuador-temple" target="_blank">Guayaquil Ecuador Temple</a></li>
-    <li><a href="https://www.churchofjesuschrist.org/temples/details/barranquilla-colombia-temple" target="_blank">Barranquilla Colombia Temple</a></li>
-  </ul>
-
-    </main>
-    <aside class="box">
-       <h2>Ecuador</h2>
-       <img src="images/Nevado-Chimborazo.jpg" alt="Nevado-Chimborazo">
-       <p>Chimborazo is a potentially active stratovolcano, located in central Ecuador, in the Chimborazo Province. Belonging to the Andes mountain range, specifically the northern Andes, it has an altitude of (6263.47 m.s.n.m) above sea level ​ making it the highest mountain in Ecuador and the northern Andes.</p>
-    </aside>
-    </div>
-    <footer>
-        <p>©️2024 🌴Jhonatan  Yugsan 🌴 Riobamba ,Ecuador</p>
-    </footer>
-  </body>
+<h2>HTML: List Approach (Used in WordPress, JS Frameworks)</h2>
+<nav>
+	<ul class="navigation wrap">
+		<li><a href="#" title="Home">Home</a></li>
+		<li><a href="#" title="About Us">About</a></li>
+		<li><a href="#" title="Our Partners">Affiliates</a></li>
+		<li><a href="#" title="History of Our Organization">History</a></li>
+		<li><a href="#" title="Contact Us">Contact</a></li>
+	</ul>
+</nav>
+<p>Why this might be preferred is that flex-wrap: wrap can be used on the flex container for automatic repsonsivness. </p>
+  
+</body>
 </html>
