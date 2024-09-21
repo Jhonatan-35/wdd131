@@ -1,5 +1,2 @@
-const full = document.querySelector("Hola a todos");
-
-function lastModified() {
-    document.write(document.lastModified);
-}
+document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+let oLastModif = new Date(document.lastModified);
