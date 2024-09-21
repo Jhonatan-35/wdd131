@@ -58,20 +58,12 @@ body{
     color: white;;
     text-align: center;
   }
-  h2{
-    background-color: steelblue;
-    
-    font-size: 30px;
-    text-align: center;
-    border-radius: 10px;
-    padding:1rem;
-    color: #fff;
-   }
+  
    .grid {
     display: grid;
     align-items: center;
     margin-left: 1rem;
-    margin-right: 2%;
+    margin-right: 1%;
   }
    
   main {
@@ -86,17 +78,16 @@ body{
   h3{
     border-bottom: 1px solid steelblue;
     text-align: center;
-  
-
+    margin: 1rem;
    }
    
    .card img{
     width: 128px;
     height: auto;
-    border: 1px solid steelblue;
     padding: 2px;
     float: right;
     margin: 0 0 1rem 1rem;
+    margin: 1rem;
    }
    .cards img{
     float: left;
@@ -121,30 +112,45 @@ body{
   } 
  
   .card {
-    margin:0rem;
-    border: 1px solid steelblue;
+
+    border: 2px solid steelblue;
     padding: 1rem;
-    max-height: 30%;
-    max-width:  70%;
+    max-height: 700px;
+    max-width:  700px;
     color: #000;
     margin-left: 0rem;
     margin-right: 0rem;
-    border-radius: 2%;
+    border-radius: 10px;
     float: left;
   }
-  
-  
-  .indent {
+  h2{
+    background-color: #006d77;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+    padding:1rem;
+    color: #fff;
+   }
+  .Clear {
+    border-radius: 10px;
+    font-size: large;
+    max-width: 900px;
+    max-width: 900px;
+    border: 2px solid steelblue;
     margin: 2rem;
-    border: 1px solid steelblue;
-    padding: 90px;
-    max-height: 3%;
-    max-width:1000px;
-    color: #000;
-    border-radius: 2%;
-    text-decoration: #000;
-    
-  
+
+  }
+  h4{
+    background-color: #006d77;
+    font-size: larger;
+    border-radius:10px ;
+    max-width: 900px;
+    color: #fff;
+  }
+  li{
+    padding: 0.5rem;
+    margin-left: 10%;
+
   }
   
   
