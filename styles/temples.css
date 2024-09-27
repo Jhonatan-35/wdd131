@@ -78,17 +78,19 @@ body{
     color: #000000;
     text-align: center;
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    
    }
-
+   
    main {
-    margin: 5rem;
+    margin: 3rem;
     grid-template-columns: 1fr ;
     display: grid;
     max-width: 1000px;
-    
+    text-align: center;
 
   }
+  
   .Navi{
     border: 1px solid #000000;
     max-width: 1000px;
@@ -141,11 +143,11 @@ grid-template-columns: 1fr ;
 flex-flow: column;
 padding: 5px;
 max-width: 220px;
-margin:5% auto;
+margin:3% auto;
 position: relative;
 border-radius: .5vmin;
 float:left;
-margin-left: 3%;
+margin-left: 5%;
 border: #000;
 }
 
