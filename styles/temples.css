@@ -82,7 +82,7 @@ body{
    }
 
    main {
-    margin: 2rem;
+    margin: 5rem;
     grid-template-columns: 1fr ;
     display: grid;
     max-width: 1000px;
