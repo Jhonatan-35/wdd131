@@ -1,36 +1,30 @@
-@media screen and (min-width: 640px) {
-nav ul{
-    display: flex;
-    
+ @media (min-width: 40em) {
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+  /*hiding the menu or humbuttom in larger view*/
+      .menu {
+          display: none;
+      }
+  
+    nav {
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+    nav a {
+      display: flex;
+      flex: 1 1 100%;
+    }
+  
+      .Zard {
+          display:grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+          grid-gap: 25px;
+          place-items: center;
+          padding: 2em;
+      }
 }
-
-body {
-    font-family: "Sansita", sans-serif;
-  }
-  header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  main  {
-    max-width: 850px;
-    margin: 1rem auto;
-    padding: 0rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 1rem;
-    text-align: center;
-    
-  }
- 
-  nav{
-    justify-content: flex-end;
-    flex-direction: row;
-  }
-  nav a ul{
-    flex: 1 1 100%;
-}
-.navigation{
-  display: flex;
-}
-}
+  
