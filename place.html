@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Country-Place</title>
+    <meta name="description" content="The place or country is focused on providing important information on different types of screens, with the implementation of responsive images and a color scheme according to the chosen country, in addition to temperature measurement by javascript functions.">
+    <meta name="author" content="Jhonatan  Ariel Yugsan">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/places-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="scripts/place.js"></script>
+</head>
+<body> 
+    <div class="ald">  
+    <header> 
+     <h1>Cartagena de Indias</h1>  
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="./images/hero-large" media="">
+                <source srcset="images/hero-medium.webp" media="min-width: 3000px">
+                <img src="images/hero-small.webp" alt="Cartagena Colombia" width="300" height="200"> 
+            </picture>
+            </div>
+    
+     <div class="cold">
+        <h2>Data</h2>
+            <ul> 
+               <li>Area: 609.1 km²</li>
+               <li>Population: 1,029 millones </li>
+               <li>Country: Colombia</li>
+               <li> State: Cartagena de Indias</li>
+               <li>Capital: Bolivar</li>
+               <li>Languages: Español </li>
+               <li>Currency: Peso Colombiano </li>
+               <li>Time Zone: GMT-5</li>
+               <li>Callin code: +57</li>
+               <li>Internet TLD:mg </li>
+        </ul> 
+    </div>   
+    <div class="card">
+        <h3>Weather</h3>
+       <img src="images/Weathersunny.svg" alt="">
+       <ul> 
+           <li>Temperature:  38&deg;</li>
+           <li>Conditions:  37&deg;</li>
+           <li>Wind:  15mph NW</li>
+           <li>Wind Chill:  <span id="windChill"></span>&deg;</li>  
+    </ul> 
+</div>
+</main>
+    <footer>
+        
+        <p>&copy; <span id="copyright-year"></span>🌴Jhonatan Ariel Yugsan 🌴 Ecuador</p>
+        <a href="https://app.moqups.com/qQLE24hUISQ9UnpqIEsjDK1mhKwSituD/view/page/a642afc8e">Wiraframe Pace</a>
+        <p>This document was last modified:</p>
+        <p id="demo"></p>
+    </footer>
+ </div>
+  </body>
+</html>
