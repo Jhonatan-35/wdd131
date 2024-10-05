@@ -1,0 +1,80 @@
+@media screen and (min-width: 640px) {
+    :root{
+        --primary-color:#ffd60a;
+        --secondary-color:#0466c8;
+        --terciary-color:#90e0ef;
+        --Quater-color:rgba(12, 12, 12, 0.4);
+      }
+     
+    .hero img {
+        width: 100%;
+        height: auto;
+       
+      }
+      .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      h1{
+        background-color:#ffd60a;
+        text-align: center;
+        padding: 1rem;
+        opacity: 0.8;;
+      }
+      li{
+        color: azure;
+        max-width: 300px;
+        font-size: 20px;
+        display: flex;
+       
+      }
+      .ald{
+        margin-left: 1%;
+
+      }
+      h1::after{
+        background-color: blue;
+        max-width: 40px;
+      }
+      #card::before{
+        width: 20%;
+      }
+      .card{
+        background-color:var(--Quater-color);
+        max-width: 300px;
+        margin: 5%;
+        position: absolute;
+        margin-top: 33%;
+        margin-left: 80%;
+        
+      }
+      .card img{
+        max-width: 70px;
+        margin-left: 10%;
+      }
+      .cold{
+        background-color: var(--Quater-color);
+        max-width: 400px;
+        text-decoration: none;
+        position:absolute;
+        margin-inline-start: 1%;
+      
+      }
+    
+      main  {
+        text-align: center;
+      }
+      
+      h2{
+      background:var(--secondary-color);
+      opacity: .8;
+      
+      }
+      h3{
+        background:var(--secondary-color);
+        opacity: .8;
+
+      }
+      
+      }
