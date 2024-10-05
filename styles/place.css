@@ -1,0 +1,107 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color:#ffd60a;
+  --secondary-color:#2a9d8f;
+  --teciary-color:#c1121f;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0;
+  }
+  .ald{
+    border: 1px solid #000000;
+    max-width: 200%;
+    grid-gap: 1rem;
+    margin-left: 15%;
+    margin: 1rem;
+   
+  }
+  h1{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    opacity: 0.8;
+  }
+  footer  {
+    text-align: center ;
+    background-color:var(--teciary-color);
+    max-width: 300%;
+    padding: 3%;
+    opacity: .9;
+  
+  } 
+  h1::after{
+    background-color: blue;
+    max-width: 40px;
+
+  }
+  
+   li{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+   
+  }
+  ul{
+    text-decoration: none;
+    list-style-type: none;
+   
+  }
+  .cold{
+    margin: 5%;
+    max-width: 100%;
+    margin-top: 5%
+  }
+  main {
+    display: grid;
+    text-align: center;
+  
+  }
+
+  h2{
+    padding: 5%;
+    font-size: xx-large;
+   
+  }
+  .card{
+    margin: 5%;
+    max-width: 100%;
+    margin-top: 9%;
+    
+    
+   
+  }
+  .card img{
+    max-width: 30%;
+    
+  }
+  h3{
+    text-align: center;
+    max-height: 30%;
+    padding: 5%;
+    font-size: xx-large;
+  }
+  p{ 
+    color: #000000;
+    padding:0rem;
+   font-size: larger;
+  
+  }
+  footer a{
+    font-size: large;
+    color: #000000;
+    text-decoration: none;
+  }
