@@ -76,5 +76,8 @@
         opacity: .8;
 
       }
-      
+      footer p{
+        display: block;
+        color: azure;
+      }
       }
