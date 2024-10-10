@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-color:#ffd60a;
+  --primary-color:#E1E335;
   --secondary-color:#2a9d8f;
-  --teciary-color:#c1121f;
+  --teciary-color:#8B1313;
 }
 .hero img {
     width: 100%;
@@ -35,7 +35,7 @@
   }
   footer  {
     display: block;
-    color: aliceblue;
+    color:#FFFFFF;
     text-align: center ;
     background-color:var(--teciary-color);
     max-width: 300%;
@@ -105,10 +105,15 @@
   }
   footer a{
     font-size: large;
-    color: azure;
+    color: #FFFFFF;
     text-decoration: none;
     display: block;
   }
+   .fooater span{
+    color: #FFFFFF;
+
+
+   }
   footer p{
-  color: azure;
+  color: #FFFFFF;
   }
