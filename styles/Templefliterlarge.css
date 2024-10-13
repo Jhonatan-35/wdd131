@@ -1,0 +1,45 @@
+@media (min-width: 40em) {
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+   header ,footer {
+     max-width: 90%;
+      margin-left: 5%;
+   }
+   h2{
+    margin-left: 15%;
+    margin-top: 0rem;
+   }
+   h3{
+    margin-top: 1rem;
+   }
+      .menu {
+          display: none;
+      }
+  
+    nav {
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+    nav a {
+      display: flex;
+      flex: 1 1 100%;
+    
+    }
+  
+    .Zard {
+      display:grid; 
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr )); 
+      grid-gap: 25px;
+      place-items: center;
+      margin-left: 15%;
+      max-width: 300%;
+    
+     }
+   
+  
+   
+}
