@@ -13,15 +13,15 @@ body{
     display: block;
     margin: 8px;
  }
-  header, footer {
+ header, footer {
    
-    max-width: 80%;
-    margin: 0 auto;
-  }
-  header {
-    display: block;
-    background-color: steelblue;
-  }
+  max-width: 80%;
+  margin: 0 auto;
+}
+header {
+  display: block;
+  background-color: steelblue;
+}
   
   nav {
    
