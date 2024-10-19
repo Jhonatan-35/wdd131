@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+    <meta name="description" content="The temple album is focused on the implementation of photos of temples from different countries using hamburger menus and html and different CSS folders and javascript functionality.">
+    <meta name="author" content="Jhonatan  Ariel Yugsan">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script defer src="scripts/form.js"></script>
+</head>
+<body> 
+     
+    <header>
+      <h1>Product Review </h1>
+    </header>
+    <main>
+        
+        
+            <form method="get" action="review.html" class="formreview">
+              <fieldset>
+                <label>Product Name
+                  <select name="productName" id="product-name" required>
+                    <option disabled selected value="">Select a Product ...</option>
+                  </select>
+                </label>
+                <div>
+                  <div>Overall Rating</div>
+                  <div class="rating">
+                    <label>
+                     ☆
+                     <input type="radio" name="rating" id="onestar" value="1" required></label>
+                     <label>
+                      ☆☆
+                      <input type="radio" name="rating" id="twostar" value="2" required></label>
+                      <label>
+                      ☆☆☆
+                      <input type="radio" name="rating" id="threestar" value="3" required></label>
+                      <label>
+                        ☆☆☆☆
+                      <input type="radio" name="rating" id="fourstar" value="4" required></label>
+                      <label>
+                       ☆☆☆☆☆
+                        <input type="radio" name="rating" id="fivestar" value="5" required></label>
+                    
+                  </div>
+                  </div>
+                  
+          
+                  <label >Date of Installation<input type="date" name="completed" required> </label>
+                  <div>Wich features did you find useful in the product ?
+                    <br>(Check all that apply)
+                  </div>
+                   <label> <input type="checkbox" name="durability" id="durability" value="yes">Durability</label>
+                   <label> <input type="checkbox" name=" easeofuse" id="easeofuse" value="yes">Ease of Use</label>
+                   <label> <input type="checkbox" name="performace" id="performace" value="yes">Performace</label>
+                   <label> <input type="checkbox" name="desing" id="desing"  value="yes">Desing</label>
+                  
+                   
+                    
+                    <label>
+                      Written Riview
+                    <span>(Optional)</span>
+                    <textarea name="written" id="writtenreview" cols="30" rows="5" ></textarea>
+                    </label>
+                    <label >
+                      Your Name
+                     <span>(Optional)</span>
+                      <input type="text" name="name" id="name">
+                    </label>
+  
+                  
+                    
+                      <input type="submit" value="Post Review" >
+                  
+                </fieldset>
+                </form> 
+              </main> 
+         <footer>
+        <p>&copy; <span id="copyright-year"></span>🌴Jhonatan Ariel Yugsan 🌴 Ecuador</p>
+        <p>This document was last modified:</p> 
+        <p id="demo"></p>
+    </footer>
+  </body>
+</html>
