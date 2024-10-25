@@ -59,15 +59,10 @@ header {
     text-align: center;
   }
   
-   .grid {
-    display: grid;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1%;
-  }
+  
    
   main {
-    margin: 2rem;
+  
     grid-column: 2;
     display: flex;
     max-width: 1000px;
@@ -97,6 +92,12 @@ header {
     
     
    }
+   .grid {
+    display: grid;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1%;
+  }
   p{
     margin: 1rem; 
     padding:0rem;
