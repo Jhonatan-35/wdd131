@@ -143,7 +143,7 @@ main {
   display: grid;
   max-width: 990px;
   text-align: center;
-    margin-left: 10%s;
+    margin-left: 10%;
 
 }
   .map iframe{
@@ -445,7 +445,44 @@ form {
 footer p{
   color: #FFFFFF;
 }
-
+.btn-wsp{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  transition: .3s;
+  
+}
+.float{
+  background-color: #066289;
+  position: fixed;
+  width: 30%;
+  height: 7%;
+  margin: 44%;
+  left: 40px;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.float a{
+  text-align: center;
+  margin: 25%;
+  font-size: 10px;
+  color: #eee;
+}
+.fa-whatsapp{
+  font-size: 60px;
+}
+.btn-wsp:hover{
+  background-color:#28e76e ;
+}
 fieldset {
   display: grid;
   grid-gap: .5rem;
