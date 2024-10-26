@@ -18,7 +18,25 @@ header {
     background-color:#066289;
   }
  
-
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 60px;
+  background-color: #25d366;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  
+}
+.fa-whatsapp{
+  font-size: 60px;
+}
+.btn-wsp:hover{
+  background-color:#28e76e ;
+}
   #menu {
     font-size: 1.5rem;
     border: 0;
@@ -97,7 +115,7 @@ main {
   display: grid;
   max-width: 990px;
   text-align: center;
-    margin-left: 10%s;
+    margin-left: 10%;
 
 }
   .map iframe{
@@ -276,7 +294,7 @@ main {
   display: grid;
   max-width: 990px;
   text-align: center;
-    margin-left: 10%s;
+    margin-left: 10%;
 
 }
   .map iframe{
@@ -471,7 +489,7 @@ main {
   display: grid;
   max-width: 990px;
   text-align: center;
-    margin-left: 10%s;
+    margin-left: 10%;
 
 }
   .map iframe{
