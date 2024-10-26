@@ -31,6 +31,17 @@
     margin: 0.5rem;
     font-size: 18px;
   }
+  nav {
+    background-color: #0BA7E5;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  nav a {
+    display: block;
+    text-decoration: none;
+    justify-content: space-between;
+   
+  }
   footer p{
     background-color: #0BA7E5;
     text-align: center;
