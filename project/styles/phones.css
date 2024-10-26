@@ -143,7 +143,7 @@ main {
   display: grid;
   max-width: 990px;
   text-align: center;
-    margin-left: 10%;
+  margin-left: 4%;
 
 }
   .map iframe{
